@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Mar 16 12:42:43 KST 2023
+org.eclipse.jst.jee.server\:SampleSpring=C\:\\Users\\codepc\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\SampleSpring
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\codepc\\.m2\\repository\\org\\springframework\\spring-web\\5.2.5.RELEASE\\spring-web-5.2.5.RELEASE.jar=C\:\\Users\\codepc\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\SampleSpring\\WEB-INF\\lib\\spring-web-5.2.5.RELEASE.jar
