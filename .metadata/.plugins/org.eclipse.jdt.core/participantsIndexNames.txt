@@ -1,6 +1,8 @@
 INDEX VERSION 1.131
 C:\STSWork\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1823557430.index
 \test\src\main\java
+C:\STSWork\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\755943323.index
+\ex02\src\main\java
 C:\STSWork\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2415907875.index
 \ex01\src\main\java
 C:\STSWork\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2016147559.index
@@ -15,5 +17,7 @@ C:\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\630691465.index
 \SampleSpring2\src\main\java
 C:\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2016147559.index
 \SampleSpring\src\main\java
+C:\STSWork\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1206470954.index
+\ex02\src\main\java
 C:\STSWork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\943555260.index
 \SampleSpring\src\main\java
