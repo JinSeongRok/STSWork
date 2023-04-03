@@ -2,12 +2,12 @@ package org.codehows.service;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.codehows.domain.Criteria;
+import org.codehows.domain.ReplyPageDTO;
 import org.codehows.domain.ReplyVO;
 import org.codehows.mapper.ReplyMapper;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
@@ -58,5 +58,12 @@ public class ReplyServiceImpl implements ReplyService {
 		log.info("get Reply List of a Board " + cri);
 		
 		return mapper.getListWithPaging(cri, bno);
+	}
+	
+	@Override
+	public ReplyPageDTO getListPage(Criteria cri, Long bno) {
+		return new ReplyPageDTO(
+				mapper.getCountByBno(bno),
+				mapper.getListWithPaging(cri, bno));
 	}
 }
